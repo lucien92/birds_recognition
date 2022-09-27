@@ -93,4 +93,4 @@ python3 predict.py -c path_custom_config.json -w path_seleccted_weights.h5 -i pa
 
 <!-- CONTACT -->
 # Contact
-SOU Deva [@devasou](https://www.linkedin.com/in/deva-sou/)
+RONDIER lucien (https://www.linkedin.com/in/lucien-rondier/)
