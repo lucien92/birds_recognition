@@ -1,4 +1,3 @@
-import tflite_runtime.interpreter as tflite
 from tflite_runtime.interpreter import Interpreter 
 from PIL import Image
 import numpy as np
@@ -13,7 +12,7 @@ interpreter = Interpreter(model_path)
 print("Model Loaded Successfully.")
 
 interpreter.allocate_tensors()
-_, height, width, _ = get_input_details()[0]['shape']
+_, height, width, _ = interpreter.get_input_details()[0]['shape']
 print("Image Shape (", width, ",", height, ")")
 
 # Load an image to be classified.
