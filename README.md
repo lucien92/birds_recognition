@@ -93,4 +93,4 @@ python3 predict.py -c path_custom_config.json -w path_seleccted_weights.h5 -i pa
 
 <!-- CONTACT -->
 # Contact
-RONDIER lucien ((https://www.linkedin.com/in/lucien-rondier-6a282a1b7/)
+RONDIER lucien (https://www.linkedin.com/in/lucien-rondier-6a282a1b7/)
